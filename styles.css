@@ -1,0 +1,162 @@
+/* styles.css */
+
+/* 全体のスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* ヘッダー */
+header {
+    background: linear-gradient(135deg, #ff6f61, #de1d77);
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 6px solid #ffd700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+header .subtitle {
+    display: block;
+    font-size: 1.2em;
+    color: #ffe6e6;
+    margin-top: 10px;
+    font-family: 'Georgia', serif;
+}
+
+header .company-name {
+    font-size: 1.3em;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* ナビゲーション */
+header nav ul {
+    list-style: none;
+    margin: 15px 0 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ffd700;
+}
+
+/* コンテンツセクション */
+.content {
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.content h2 {
+    color: #ff6f61;
+    font-size: 2em;
+    border-bottom: 2px solid #ff6f61;
+    padding-bottom: 10px;
+}
+
+.service {
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service h3 a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: color 0.3s;
+}
+
+.service h3 a:hover {
+    color: #de1d77;
+}
+
+.service p {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+
+/* フッター */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    border-top: 6px solid #ff6f61;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff6f61;
+}
+/* 「～以下は準備中です～」のスタイル */
+.notice {
+    color: #0073e6; /* 青色 */
+    font-size: 1.1em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* 暗記添削（アンテン）と公式英文法の背景色 */
+.dark-background {
+    background-color: #f5f5f5; /* 薄黒い背景色 */
+    border: 1px solid #ccc;
+}
+/* 暗記添削（アンテン）と公式英文法の背景色 */
+.dark-background {
+    background-color: #e0e0e0; /* 以前より少し濃い灰色 */
+    border: 1px solid #bbb; /* 境界線も少し濃く調整 */
+}

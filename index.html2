@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メトロイングリッシュ - 英語の館</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>メトロイングリッシュ</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="#about">塾の内容紹介</a></li>
+                    <li><a href="#courses">コースと料金</a></li>
+                    <li><a href="#enrollment">入会方法</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="details" class="content">
+        <div class="container">
+            <h2>メトロイングリッシュの詳細</h2>
+            <img src="images/metro-english.jpg" alt="メトロイングリッシュ" class="intro-image">
+            <p>メトロイングリッシュは、実用的な会話力を育成するためのプログラムです。初心者から上級者まで対応しており、日常会話からビジネス英語まで幅広く学べます。授業は少人数制で、インタラクティブな授業が特徴です。</p>
+            <h3>主な特徴</h3>
+            <ul>
+                <li>初心者から上級者まで対応</li>
+                <li>実践的な会話力を重視</li>
+                <li>少人数制の授業</li>
+            </ul>
+            <h3>料金プラン</h3>
+            <p>詳細な料金プランについては<a href="https://example.com/courses" target="_blank">こちらのリンク</a>をご覧ください。</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 株式会社ARCHE. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
